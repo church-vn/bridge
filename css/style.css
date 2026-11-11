@@ -1260,3 +1260,56 @@ a {
     }
 
 }
+
+
+
+
+
+
+/* =========================================================
+   SVG ICONS FIX
+   ========================================================= */
+
+/* Звезда возле приглашения */
+
+.aside-note-star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 27px;
+    height: 27px;
+
+    flex-shrink: 0;
+
+    color: var(--brown);
+    font-size: 0;
+}
+
+.aside-note-star svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Стрелка Telegram в футере */
+
+.footer-telegram {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.footer-telegram svg {
+    display: block;
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+
+    transition: transform 0.3s ease;
+}
+
+.footer-telegram:hover svg {
+    transform: translate(2px, -2px);
+}
