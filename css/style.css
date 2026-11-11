@@ -1313,3 +1313,21 @@ a {
 .footer-telegram:hover svg {
     transform: translate(2px, -2px);
 }
+
+
+
+/* =========================================================
+   ACTIVITIES — 5 ITEMS
+   ========================================================= */
+
+.activities {
+    gap: 0;
+}
+
+.activity {
+    min-height: 100px;
+}
+
+.activity:last-child {
+    border-bottom: none;
+}
